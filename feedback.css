@@ -1,0 +1,39 @@
+body{
+  background-color: blue;
+}
+
+form{
+  border:5px double black;
+  width:100%;
+  border-radius:12px;
+  padding: 12px;
+  text-align:justify;
+  text-align: inherit;
+  margin:45px;
+  width: 50%;
+  position:absolute;
+  left:300px;
+  cursor: pointer;
+}
+h1{
+  background-color: lightblue;
+  border-radius:20px;
+  width:80px;
+  padding:10px;
+}
+@media only screen and (max-width:700px){
+  form{
+    border:5px double black;
+    width:200%;
+    border-radius:12px;
+    padding: 12px;
+    text-align:justify;
+    text-align: inherit;
+    margin:45px;
+    width: 50%;
+    position:absolute;
+    left:30px;
+    cursor: pointer;
+
+  }
+}
