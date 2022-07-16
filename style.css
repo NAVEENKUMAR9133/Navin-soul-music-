@@ -1,0 +1,54 @@
+*{
+  margin:8%;
+}
+body{
+  background-image: url("fontpage.jpg");
+  background-position: right;
+  background-repeat:no-repeat;
+  background-color:black;
+
+}
+.page1{
+  color:white;
+  position:relative;
+}
+.btn1{
+  height:20px;
+  width:203px;
+  background-color:lightblue;
+  position:relative;
+  bottom:30px;
+  border:none;
+  border-radius:30px;
+}
+.btn1 a{
+  text-decoration: none;
+  color:black;
+}
+@media only screen and (max-width:700px){
+  .btn1{
+  top:455px;
+  left:-10px;
+  }
+  .page1{
+    font-size:20px;
+    margin:0%;
+    position: relative;
+    left:-15px;
+    top:450px;
+  }
+  body{
+    background-image: url("fontpage.jpg");
+    background-position:left;
+    background-repeat:no-repeat;
+    background-color:black;
+    height:600px;
+  }
+  .page1{
+    font-size:25px;
+    left:-70px;
+    text-align:center;
+    color:skyblue;
+  }
+
+}
